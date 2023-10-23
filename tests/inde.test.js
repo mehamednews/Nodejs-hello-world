@@ -10,6 +10,6 @@ describe('API Endpoint Testing', () => {
 		const response = await request.get('/');
 
 		// Assert the response status code is 200 (OK)
-		expect(response.status).toBe(201);
+		expect(response.status).toBe(200);
 	});
 });
